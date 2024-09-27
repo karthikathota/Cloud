@@ -83,8 +83,28 @@ It is achieved by:
 It gives you the confidence that the system will continue to perform at the expected level in future.  
 
 #### How is it achieved
+
 1) Auto-Scaling  
 2) Load Balancing  
-3) Different types of types, sizes, pricing tiers.
+3) Different types of types, sizes, pricing tiers
 4) Cost management tools
-5) 
+
+## Security 
+
+Cloud providers are massive targets for hackers so they spend a lot of time and money on making the cloud a secure platform.  
+Cloud providers go through security audits and compliance certifications and they provide tools for customers they need to enable and monitor security with their 
+own application.  
+
+#### How is it achieved
+
+1) Industry standard compilance certifications  
+2) Microsoft Security Response Center(MSRC)  
+3) Always on DDos(Distributed denial of service)
+4) Role based access control
+5) Always up to date platform services  
+
+## Governance 
+
+How a organization chooses to do a business  
+Ultimately it is the process of defining, implementing and monitoring a framework of policies that guides 
+and organization's cloud operations  
