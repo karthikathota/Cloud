@@ -78,4 +78,13 @@ It is achieved by:
 2) Avoid single point failures  
 3) Multi region deployement  
 
-# Predictability
+## Predictability
+
+It gives you the confidence that the system will continue to perform at the expected level in future.  
+
+#### How is it achieved
+1) Auto-Scaling  
+2) Load Balancing  
+3) Different types of types, sizes, pricing tiers.
+4) Cost management tools
+5) 
