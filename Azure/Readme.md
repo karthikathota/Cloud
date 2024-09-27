@@ -161,3 +161,20 @@ These are essential services of IT like
 3) Networking  
 
 These are cloud equivalents for realworld hardware.  
+
+#### IaaS Computing 
+
+One example is azure  
+Pay by the second for what the customer uses  
+Many choices of CPU's, RAM, etc.  
+
+#### IaaS Storage
+
+Azure Storage is one example  
+Can handle blobs, files, queues and tables  
+
+#### IaaS Networking
+
+Virtual Networking is one example  
+Here, the virtual network donot cost anything and bandwidth is the one that costs.  
+There are ingress(data entering azure) and egress(data leaving azure) bandwidth costs.  
