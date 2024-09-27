@@ -162,7 +162,6 @@ These are essential services of IT like
 
 These are cloud equivalents for realworld hardware.  
 
-#### IaaS Computing 
 
 One example is azure  
 Pay by the second for what the customer uses  
@@ -178,3 +177,23 @@ Can handle blobs, files, queues and tables
 Virtual Networking is one example  
 Here, the virtual network donot cost anything and bandwidth is the one that costs.  
 There are ingress(data entering azure) and egress(data leaving azure) bandwidth costs.  
+
+## Platform as as Service(PaaS)
+
+PaaS includes a service layer on the top os IaaS. Like Middleware, development tools, database server and more.  
+
+#### PaaS Computing 
+
+One example is Azure App Service where we simply upload the code and configurations to azure, and it runs the code without needing 
+to worry about the VM underneath  
+Includes sacling features, CI/CD, containers, staging and development environments, etc  
+
+#### PaaS Storage
+
+Azure SQL database is an example  
+Freed from worrying about the server VM itself or the other harware component that affect the storage.  
+
+#### PaaS Networking
+
+Azure front door is an example  
+These are software application that perform networking application.  
