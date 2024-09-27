@@ -72,3 +72,10 @@ It can be defined as the ability of a system to be accesible and usable by users
 
 Key Concepts:
 1) Ability of s system to recover from failures. Many types of failures can occur in a well defined system like hardware failures, network interruptions, power failures, etc.  
+
+It is achieved by:  
+1) Auto Scaling 
+2) Avoid single point failures  
+3) Multi region deployement  
+
+# Predictability
