@@ -114,4 +114,28 @@ and organization's cloud operations
 1) Azure policy and blueprint: makes sure that certain policies are followed
 2) Management grops: allows to manageme subscriptions  
 3) Custom roles  
-4) 
+
+## Manageability
+
+There are 2 parts
+1) Management of the cloud
+2) Management in the cloud 
+
+### Management Of The Cloud 
+
+Includes all of the features that cloud providers give to manage own application  
+Some types are:  
+Templates  
+Automation  
+Scaling  
+Monitoring and alerts  
+Self-healing
+
+### Management In The Cloud 
+
+These are the features given by cloud providers to manage resources
+Some types are:  
+Web portals  
+Command line interfaces  
+APIs  
+PowerShell  
