@@ -138,4 +138,26 @@ Some types are:
 Web portals  
 Command line interfaces  
 APIs  
-PowerShell  
+PowerShell 
+
+# Cloud Service Types 
+
+There are primarily three types  
+1) Infrastructure as a Service(IaaS)  
+2) Platform as as Service(PaaS)
+3) Software as a Service(SaaS)
+
+#### What is "As a Service"
+
+You can rent the service for a short time rather than owning it  
+No commitment and usage as needed by the customer  
+Pay only for what the customer used  
+
+## Infrastructure as a Service(IaaS)
+
+These are essential services of IT like  
+1) computing  
+2) Storage  
+3) Networking  
+
+These are cloud equivalents for realworld hardware.  
