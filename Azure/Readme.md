@@ -108,3 +108,10 @@ own application.
 How a organization chooses to do a business  
 Ultimately it is the process of defining, implementing and monitoring a framework of policies that guides 
 and organization's cloud operations  
+
+#### How is it achieved
+
+1) Azure policy and blueprint: makes sure that certain policies are followed
+2) Management grops: allows to manageme subscriptions  
+3) Custom roles  
+4) 
