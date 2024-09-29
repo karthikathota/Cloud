@@ -197,3 +197,12 @@ Freed from worrying about the server VM itself or the other harware component th
 
 Azure front door is an example  
 These are software application that perform networking application.  
+
+## Software as a Service(SaaS)
+
+These are apps that are ready to use and customer needs to simply set it up and use it  
+
+## Serverless
+
+Serverless computing in Azure allows you to build and deploy applications without managing the underlying infrastructure. 
+Here we donot specificaaly pick the hardware. Basically paying for the service and not the hardware.  
