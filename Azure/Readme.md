@@ -240,3 +240,11 @@ In Azure, a subscription is an organizational unit used to manage access, resour
 billing for the resources and services you use in the cloud. It serves as a container for all your Azure resources (such as virtual machines, databases, and storage accounts) 
 and provides a way to logically group these resources. Each subscription is 
 tied to a billing account and can be associated with specific billing, quotas, and policies.
+
+## Management Groups
+
+In Microsoft Azure, management groups are a way to organize and manage multiple Azure subscriptions at a higher level. They allow you to group 
+subscriptions together for unified policy and access management, making it easier to govern large-scale environments, 
+especially in enterprises with multiple departments, projects, or business units.
+
+![](Azure/img/management_group.png)
