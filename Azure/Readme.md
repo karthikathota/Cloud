@@ -222,3 +222,21 @@ These are not connected to the Azure public cloud. Customer require approval to 
 
 Azure availabilty zones are physically separate locations within each azure region. They are independent from one another.  
 This allows cloud resources (like virtual machines or databases) to replicate across zones for better disaster recovery.  
+
+## Resource
+
+Any azure service that customers have access to, such as VM, DB, etc.  
+Each resource has a name and sometimes they may need to be unique. Most resources have cost associated with them.  
+
+
+## Resource Groups
+
+A logical grouping of resources. All the services in a resource group have a similar lifecycle i.e deploy together, delete together. 
+Any resoruce can access anyother resource in a resource group.  
+
+## Subscriptions 
+
+In Azure, a subscription is an organizational unit used to manage access, resource creation, and 
+billing for the resources and services you use in the cloud. It serves as a container for all your Azure resources (such as virtual machines, databases, and storage accounts) 
+and provides a way to logically group these resources. Each subscription is 
+tied to a billing account and can be associated with specific billing, quotas, and policies.
