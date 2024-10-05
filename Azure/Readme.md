@@ -247,4 +247,4 @@ In Microsoft Azure, management groups are a way to organize and manage multiple 
 subscriptions together for unified policy and access management, making it easier to govern large-scale environments, 
 especially in enterprises with multiple departments, projects, or business units.
 
-![](Azure/img/management_group.png)
+![](/.img/management_group.png)
