@@ -156,14 +156,14 @@ Pay only for what the customer used
 ## Infrastructure as a Service(IaaS)
 
 These are essential services of IT like  
-1) computing  
+1) Computing  
 2) Storage  
 3) Networking  
 
 These are cloud equivalents for realworld hardware.  
 
 
-One example is azure  
+One example is VM's in Azure and EC2(Elastic Cloud Computing) in AWS
 Pay by the second for what the customer uses  
 Many choices of CPU's, RAM, etc.  
 
@@ -184,7 +184,7 @@ PaaS includes a service layer on the top os IaaS. Like Middleware, development t
 
 #### PaaS Computing 
 
-One example is Azure App Service where we simply upload the code and configurations to azure, and it runs the code without needing 
+One example is Azure App Service,Azure SQL Database,Azure Cosmos DB,Azure Functions where we simply upload the code and configurations to azure, and it runs the code without needing 
 to worry about the VM underneath  
 Includes sacling features, CI/CD, containers, staging and development environments, etc  
 
@@ -202,7 +202,23 @@ These are software application that perform networking application.
 
 These are apps that are ready to use and customer needs to simply set it up and use it  
 
-## Serverless
-
+ 
 Serverless computing in Azure allows you to build and deploy applications without managing the underlying infrastructure. 
-Here we donot specificaaly pick the hardware. Basically paying for the service and not the hardware.  
+Here we donot specifically pick the hardware. Basically paying for the service and not the hardware.  
+
+# Core Azure Architecture 
+
+## Region 
+
+Areas of world where azure has set of datacenters.  
+Not necessarily countires but it can be a place of the county. Usually each region is connected to another region to make a region pair.  
+Region pairs have highest speed connections and speical treatment during azure updates.  
+
+## Soverring Regions 
+
+These are not connected to the Azure public cloud. Customer require approval to create a subscription.  
+
+## Availabilty Zones
+
+Azure availabilty zones are physically separate locations within each azure region. They are independent from one another.  
+This allows cloud resources (like virtual machines or databases) to replicate across zones for better disaster recovery.  
