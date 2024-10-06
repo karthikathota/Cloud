@@ -232,7 +232,9 @@ Each resource has a name and sometimes they may need to be unique. Most resource
 ## Resource Groups
 
 A logical grouping of resources. All the services in a resource group have a similar lifecycle i.e deploy together, delete together. 
-Any resoruce can access anyother resource in a resource group.  
+Any resoruce can access anyother resource in a resource group.
+Resource groups make the management of Azure resources easier. With a resource group, you can allow a user to manage all resources in the resource group, such as virtual machines, websites, and subnets. 
+The permissions you apply to the resource group apply to all resources contained in the resource group.  
 
 ## Subscriptions 
 
@@ -248,3 +250,17 @@ subscriptions together for unified policy and access management, making it easie
 especially in enterprises with multiple departments, projects, or business units.
 
 ![](/.img/management_group.png)
+
+## Computing Services 
+
+Compute services in the cloud refer to resources provided by azure that allow users to run an application process the data and execute a program.  
+
+#### Virtual Machines 
+
+These are best examples of IaaS. 
+A virtual machine is a single software package with hardware resources, an operating system, and all its applications. 
+You get control over the OS and can install applications, but you're responsible for managing the VMs. 
+
+We scale the VM's to handle more traffic whenever necessary. It can be done in 2 ways:-  
+1) ScaleUP:- We can increase the size of VM easily by turning a 4CPU vm into an 8CPU vm in minutes.  
+2) ScaleOut:- One more way is to add more VM's and have them work together to hanfle more traffic.  
