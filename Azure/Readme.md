@@ -281,3 +281,9 @@ You have multiple VM with same identical functions. We need a differentiating fa
 all VMs in the same fault domain are impacted. By placing VMs in different fault domains, you're reducing the chance that all your VMs will go down at the same time.  
 2) Update Domains (UDs): These help during maintenance events. Update domains are groups of VMs that get updated or rebooted at the same time when there's a scheduled maintenance. 
 By distributing your VMs across update domains, only a portion of your VMs are taken offline during maintenance.  
+
+### Proximity Groups
+
+This is opposite to Availabilty Sets. In the multiple VM that have an identical function are arranged together.  
+This increases the chance of less availabilty of a system in case of any unplanned outages.  
+
