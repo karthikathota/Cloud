@@ -264,3 +264,10 @@ You get control over the OS and can install applications, but you're responsible
 We scale the VM's to handle more traffic whenever necessary. It can be done in 2 ways:-  
 1) ScaleUP:- We can increase the size of VM easily by turning a 4CPU vm into an 8CPU vm in minutes.  
 2) ScaleOut:- One more way is to add more VM's and have them work together to hanfle more traffic.  
+
+#### Virtual Machines Scale Sets(VMSS) 
+
+A group of VM that can grow and shrink in quantity based on predefined rule. 
+
+This can be done by monitoring demand, predfined schedules where more traffic can be found, and many more way.  
+
