@@ -287,3 +287,7 @@ By distributing your VMs across update domains, only a portion of your VMs are t
 This is opposite to Availabilty Sets. In the multiple VM that have an identical function are arranged together.  
 This increases the chance of less availabilty of a system in case of any unplanned outages.  
 
+### App Services(Web Apps)
+
+This comes under PaaS. In this no full complete over server is there. We package the code and configurations and the azure will 
+run the code based on the promised performance levels.  
