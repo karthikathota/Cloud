@@ -291,3 +291,13 @@ This increases the chance of less availabilty of a system in case of any unplann
 
 This comes under PaaS. In this no full complete over server is there. We package the code and configurations and the azure will 
 run the code based on the promised performance levels.  
+
+### Contianer Services
+
+Containers are lightweight, standalone packages that bundle an application with all its dependencies, making them portable and consistent across different environments. 
+Cloud container services help automate and simplify the deployment, scaling, and management of these containers.
+
+Examples:-
+
+Azure Container Instances (ACI):- ACI is a service that lets you run containers without the need to manage virtual machines or Kubernetes clusters.  
+Azure Kubernetes Service (AKS)::- AKS is Azure's fully managed Kubernetes service, offering simplified Kubernetes cluster management.   
