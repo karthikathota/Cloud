@@ -301,3 +301,11 @@ Examples:-
 
 Azure Container Instances (ACI):- ACI is a service that lets you run containers without the need to manage virtual machines or Kubernetes clusters.  
 Azure Kubernetes Service (AKS)::- AKS is Azure's fully managed Kubernetes service, offering simplified Kubernetes cluster management.   
+
+### Azure Functions
+
+Function allows you to run small pieces of code in response to events occuring without worrying about managing the underlying infrastructure. You only pay for the compute resources you use while the function is executed and how many times the function is used. The pricing is very less compared to counterparts.  
+These functions have many features:-  
+1) Serverless :- You don't need to provision or manage servers. The cloud platform automatically scales resources up or down based on demand, and you're billed only for the time your function code runs.  
+2) Scalability :- Azure Functions automatically scale out based on the number of incoming events. It can handle multiple simultaneous function executions without the need for manual intervention.
+3) Integrations with Azure Services:- Azure Functions integrates deeply with other Azure services like Azure Storage, Azure Cosmos DB, Azure Event Grid, Azure Logic Apps, and more. This allows seamless workflows and event-driven architectures.  
