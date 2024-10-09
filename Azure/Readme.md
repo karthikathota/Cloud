@@ -271,3 +271,13 @@ A group of VM that can grow and shrink in quantity based on predefined rule.
 
 This can be done by monitoring demand, predfined schedules where more traffic can be found, and many more way.  
 
+### Availabilty Sets
+
+You have multiple VM with same identical functions. We need a differentiating factor that seperates one from the other.  
+
+#### How is it achieved
+
+1) Fault Domains(FDs):-  A fault domain is a group of resources that share the same power source and physical network switch. If a power or network failure occurs, 
+all VMs in the same fault domain are impacted. By placing VMs in different fault domains, you're reducing the chance that all your VMs will go down at the same time.  
+2) Update Domains (UDs): These help during maintenance events. Update domains are groups of VMs that get updated or rebooted at the same time when there's a scheduled maintenance. 
+By distributing your VMs across update domains, only a portion of your VMs are taken offline during maintenance.  
