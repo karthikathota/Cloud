@@ -309,3 +309,16 @@ These functions have many features:-
 1) Serverless :- You don't need to provision or manage servers. The cloud platform automatically scales resources up or down based on demand, and you're billed only for the time your function code runs.  
 2) Scalability :- Azure Functions automatically scale out based on the number of incoming events. It can handle multiple simultaneous function executions without the need for manual intervention.
 3) Integrations with Azure Services:- Azure Functions integrates deeply with other Azure services like Azure Storage, Azure Cosmos DB, Azure Event Grid, Azure Logic Apps, and more. This allows seamless workflows and event-driven architectures.  
+
+### Virtual Networks 
+
+Virtual Networks (VNets) in Azure are fundamental building blocks for private networking in Azure. They allow you to create isolated network environments within the Azure cloud, where you can securely run and manage your resources such as virtual machines, databases, and web services 
+In azure 2 VM's cannot connect to eachother. So, we use virutal networks to connect the VM's.  
+These are cosidered as IaaS.  
+These VNets's are given addresses of IPV4 or IPV6 or somtimes both. These addresses cannot be accessed outside of azure and by other networks in azure.  
+
+#### Subnets 
+
+All VNets are divided into one or more subnets. These subnets are assigned a IP address which must exists in the address space 
+of the parent VNets.  
+Usually there is a security layer between subnets and the traffic must match predefined ruleset to pass.  
