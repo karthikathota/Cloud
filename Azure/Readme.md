@@ -322,3 +322,13 @@ These VNets's are given addresses of IPV4 or IPV6 or somtimes both. These addres
 All VNets are divided into one or more subnets. These subnets are assigned a IP address which must exists in the address space 
 of the parent VNets.  
 Usually there is a security layer between subnets and the traffic must match predefined ruleset to pass.  
+
+### Network Security Groups
+
+Also called as NSG. An Access Control List(ACL) that blocks traffic that is inbound and outbound from a subnet unless it matches some predefined rules. These rules are based on 
+source IP, source port, destination IP, destination port, and protocol(5-tuple match).  
+
+### Peering 
+
+In general communication is blocked between 2 subnets on different networks, so to get around that we setup a peering relationship between the 2 subnets 
+which allows communication between the VM on one network with a VM on another network.  
