@@ -389,8 +389,3 @@ In the contect of servers with the help of ARC we can Manage windows and linux s
 Infrastructure as Code (IaC) in Azure refers to the process of managing and provisioning cloud resources (such as virtual machines,
 networking, storage, etc.) using machine-readable definition files instead of manually configuring them through the Azure portal. With IaC, you can define, deploy, and manage your infrastructure using code, ensuring consistency, scalability, and version control.
 In this context Infrastructure is all the servers, database settings, network settings, firewalls, etc.
-
-## ARM Templates
-
-Azure Resource Manager (ARM) Templates are JSON (JavaScript Object Notation) files that define the infrastructure and services you want to deploy to Azure. They are used for Infrastructure as Code (IaC), meaning you can define your cloud resources declaratively in code
-rather than using the Azure Portal manually. ARM templates ensure that your infrastructure is provisioned and managed consistently and efficiently.
